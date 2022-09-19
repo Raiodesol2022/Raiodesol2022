@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Contato </title>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> Ana Paula Rohringer </title>
+            <link rel="stylesheet" href="index.css">
+    </head>
+
+    
+    <body>
+
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"> Sobre mim </a>
+                    </li>
+                    <li>
+                        <a href="projetos.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="formação.html">Formação</a>
+                    </li>
+                    <li>
+                        <a href="contato.html"> Contato </a>
+                    </li>
+                </ul>
+            </nav>
+        
+            <header>
+        
+              <div class="center">
+                <img src="./image/fotoperfil.jpeg" alt="Foto do Perfil"></div></img>
+        
+              </div>
+        
+              <h1> Ana Paula Rohringer</h1>
+              <h2> Desenvolvedora de Software </h2>
+              <h5> Curso em Andamento</h5>
+        
+            </header>
+            <br class="clearfix" />
+
+
+        <section class="sec_contato">
+            <div class="metade form">
+
+                        <!-- 
+                        Metodo:
+                        GET:   Dados são passados pela URL.
+                        POST:  Dados são passados peça REQUISIÇÂO. 
+                    -->
+                    
+                    <h2> Deixe sua Mensagem</h2> <br /><br />
+
+                <form enctype="application/x-www-form-urlencoded" method="post">
+
+                    <label for="NomeCompleto"> Nome </label>
+                    <input id="NomeCompleto" type="text" name="Nome_Completo" value="" 
+                    placeholder="Digite seu nome completo" />
+                    <br />
+
+                    <label for="Email">E-mail</label>
+                    <input id="Email" type="text" name="Email"
+                    placeholder="Digite seu e-mail"  />
+                    <br />
+
+                    <label for="Telefone"> Telefone </label>
+                    <input id="Telefone" type="text" name="Telefone"
+                    placeholder="Digite seu telefone" />
+                    <br />
+
+                    <label for="Mensagem"> Mensagem </label>
+                    <textarea name="Mensagem"></textarea>
+                    <br />
+
+                    <input type="submit" />
+                </form>
+
+                 
+        
+
+    </body>
+</html>
